@@ -9,7 +9,7 @@ An interactive data analytics project that analyzes cryptocurrency trader behavi
 🔗 Add your deployed Streamlit app link here
 
 Example:
-https://your-app-name.streamlit.app
+https://crypto-trader-sentiment-analysis-fwnnq4ypfkejkztnkkdu4i.streamlit.app/
 
 ---
 
