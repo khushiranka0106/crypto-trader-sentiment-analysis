@@ -1,118 +1,176 @@
-# 📈 Crypto Trader Behavior Analysis Using Market Sentiment
+# 📈 Crypto Trader Behavior Analysis Dashboard
 
-## 📌 Overview
-
-This project analyzes how cryptocurrency traders behave under different market sentiment conditions. By combining trader performance data with the Crypto Fear & Greed Index, the analysis uncovers patterns in profitability, trading frequency, position sizing, and trader behavior. The project demonstrates an end-to-end data analytics workflow, from data preprocessing to business insights.
+An interactive data analytics project that analyzes cryptocurrency trader behavior using historical trading data and the Fear & Greed Index. This project explores how market sentiment influences trader profitability, win rate, trading frequency, and position size through exploratory data analysis and an interactive Streamlit dashboard.
 
 ---
 
-## 🎯 Objectives
+## 🚀 Live Demo
 
-* Analyze the relationship between market sentiment and trader performance.
-* Evaluate how profitability changes across different sentiment categories.
-* Identify trading patterns under varying market conditions.
-* Segment traders based on their position sizes.
-* Generate actionable insights through data visualization.
+🔗 Add your deployed Streamlit app link here
 
----
-
-## 📂 Dataset
-
-### Trader Data
-
-* Trade Date
-* Closed PnL
-* Position Size
-* Trade Direction
-* Trading Volume
-* Trade Status
-
-### Market Sentiment Data
-
-* Date
-* Sentiment Classification
-* Sentiment Value (Fear & Greed Index)
+Example:
+https://your-app-name.streamlit.app
 
 ---
 
-## 🛠️ Tech Stack
+## 📂 Project Overview
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Jupyter Notebook
+This project combines:
+
+- Historical cryptocurrency trading data
+- Fear & Greed Index dataset
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Interactive Streamlit Dashboard
+- Business insights and recommendations
+
+The objective is to understand how different market sentiments affect trader behavior and trading performance.
 
 ---
 
-## 📊 Project Workflow
+## 📊 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Streamlit
+- Jupyter Notebook
+
+---
+
+## 🔄 Project Workflow
 
 1. Data Collection
-2. Data Cleaning & Preprocessing
-3. Feature Engineering
-4. Dataset Merging
-5. Exploratory Data Analysis (EDA)
-6. Trader Segmentation
-7. Market Sentiment Analysis
-8. Data Visualization
-9. Business Insights & Recommendations
+2. Data Cleaning
+3. Data Transformation
+4. Date Formatting
+5. Merge Trading Data with Fear & Greed Index
+6. Exploratory Data Analysis (EDA)
+7. Interactive Dashboard Development
+8. Business Insights & Recommendations
 
 ---
 
-## 📈 Visualizations
+## 📈 Dashboard Features
 
-The project includes the following analyses:
+The Streamlit dashboard includes:
 
-* Average Closed PnL by Market Sentiment
-* Win Rate by Market Sentiment
-* Trade Frequency by Market Sentiment
-* Average Position Size by Market Sentiment
-* Trading Direction Distribution
-* Trader Segment Performance Comparison
-* Sentiment Distribution Analysis
+- 📌 Overall Trading Statistics
+- 📌 Average Closed PnL
+- 📌 Win Rate
+- 📌 Total Trades
+- 📌 Average Position Size
+- 📌 Interactive Charts
+- 📌 Business Insights
+
+---
+
+## 📊 Visualizations
+
+The dashboard contains the following analyses:
+
+- Average Closed PnL by Market Sentiment
+- Win Rate by Market Sentiment
+- Trade Frequency by Market Sentiment
+- Average Position Size by Market Sentiment
 
 ---
 
 ## 💡 Key Insights
 
-* **Extreme Greed** market conditions resulted in the highest average profitability and win rate.
-* **Fear** periods recorded the highest trading activity, indicating increased market participation during uncertainty.
-* Traders with **larger position sizes** generally generated higher average profits.
-* Trading behavior varied significantly across different market sentiment categories.
-* Market sentiment showed a measurable influence on trading performance and decision-making.
+- Extreme Greed recorded the highest average profitability.
+- Win rate was highest during positive market sentiment.
+- Fear periods experienced the highest trading activity.
+- Larger trading positions generated higher average returns but also carried higher risk.
+- Market sentiment significantly influenced trader behavior and overall performance.
 
 ---
 
-## 🚀 Future Enhancements
+## 📷 Dashboard Preview
 
-* Build predictive Machine Learning models for trader performance.
-* Develop an interactive dashboard using **Power BI** or **Streamlit**.
-* Perform time-series forecasting on market sentiment and profitability.
-* Automate data ingestion using APIs.
-* Deploy the project as a web application.
+Add screenshots here after uploading them to GitHub.
+
+Example:
+
+```
+screenshots/dashboard.png
+screenshots/chart1.png
+screenshots/chart2.png
+screenshots/chart3.png
+```
+
+```markdown
+![Dashboard](screenshots/dashboard.png)
+
+![Average PnL](screenshots/chart1.png)
+
+![Win Rate](screenshots/chart2.png)
+
+![Trade Frequency](screenshots/chart3.png)
+```
 
 ---
 
-## 📚 Skills Demonstrated
+## 📁 Project Structure
 
-* Data Cleaning
-* Data Preprocessing
-* Data Transformation
-* Data Merging
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Data Visualization
-* Business Analytics
-* Insight Generation
+```
+crypto-trader-behavior-analysis/
+│
+├── app.py
+├── Trader_sentiment_Analysis.ipynb
+├── historical_data.csv
+├── fear_greed_index.csv
+├── requirements.txt
+├── README.md
+│
+└── screenshots/
+    ├── dashboard.png
+    ├── chart1.png
+    ├── chart2.png
+    └── chart3.png
+```
+
+---
+
+## ▶️ How to Run
+
+Clone the repository
+
+```bash
+git clone https://github.com/khushiranka0106/crypto-trader-sentiment-analysis.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Add interactive filters
+- Build machine learning models for trade prediction
+- Deploy on cloud platforms
+- Include time-series forecasting
+- Perform portfolio risk analysis
 
 ---
 
 ## 👩‍💻 Author
 
 **Khushi Ranka**
-B.Tech – Computer Science Engineering
+
+B.Tech Computer Science Engineering
+
 JECRC University
 
----
-
-⭐ If you found this project helpful, consider giving it a **star** on GitHub.
+GitHub: https://github.com/khushiranka0106
