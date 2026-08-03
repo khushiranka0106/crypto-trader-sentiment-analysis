@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
+import gdown
+import os
 
 # -------------------------------
 # Page Configuration
@@ -63,6 +65,14 @@ st.caption(
     "Historical Trading Data + Fear & Greed Index"
 )
 import pandas as pd
+file_id = "14fmNDvAFFoTUjzgjHfwHkwORtmkq9ACW"
+
+if not os.path.exists("historical_data.csv"):
+    gdown.download(
+        f"https://drive.google.com/uc?id={file_id}",
+        "historical_data.csv",
+        quiet=False
+    )
 
 history = pd.read_csv("historical_data.csv")
 fear = pd.read_csv("fear_greed_index.csv")

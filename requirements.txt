@@ -6,3 +6,4 @@ jupyter
 streamlit
 plotly
 pillow
+gdown
