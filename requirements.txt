@@ -1,9 +1,6 @@
-pandas
-numpy
-matplotlib
-scikit-learn
-jupyter
 streamlit
+pandas
+matplotlib
 plotly
-pillow
+numpy
 gdown

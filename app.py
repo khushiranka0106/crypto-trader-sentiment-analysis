@@ -56,8 +56,14 @@ page = st.sidebar.radio(
     ]
 )
 
-trader = pd.read_csv("historical_data.csv")
-sentiment = pd.read_csv("fear_greed_index.csv")
+file_id = "14fmNDvAFFoTUjzgjHfwHkwORtmkq9ACW"
+
+if not os.path.exists("historical_data.csv"):
+    url = f"https://drive.google.com/uc?id={file_id}"
+    gdown.download(url, "historical_data.csv", quiet=False)
+
+history = pd.read_csv("historical_data.csv")
+fear = pd.read_csv("fear_greed_index.csv")
 
 st.title("📈 Crypto Trader Behavior Analysis Dashboard")
 
